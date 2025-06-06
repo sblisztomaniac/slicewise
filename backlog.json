@@ -1,0 +1,50 @@
+[
+  {
+    "title": "[MVP] Hero Page with CTA and Onboarding",
+    "body": "Create the hero section with title, subheadline, 3-step explainer, and call-to-action button to start building a cap table. Ensure responsiveness.",
+    "labels": ["MVP", "frontend", "hero"],
+    "assignees": []
+  },
+  {
+    "title": "[MVP] Team Member Input Form",
+    "body": "Build input fields to add founder/team member names and share counts. Include an 'Add Founder' button and manage entries in React state.",
+    "labels": ["MVP", "frontend", "form"],
+    "assignees": []
+  },
+  {
+    "title": "[MVP] SAFE Investor Input",
+    "body": "Add optional SAFE investor input fields (name, amount, valuation cap). Validate and store the data in local state.",
+    "labels": ["MVP", "frontend", "form"],
+    "assignees": []
+  },
+  {
+    "title": "[MVP] Cap Table Display + Recharts Pie Chart",
+    "body": "Display cap table entries in a table view with name, shares, and ownership %. Add a dynamic pie chart using Recharts that updates as data changes.",
+    "labels": ["MVP", "frontend", "visualization"],
+    "assignees": []
+  },
+  {
+    "title": "[MVP] Inject Cap Table JSON into AI Copilot",
+    "body": "Create an input box for questions. Inject the current cap table state and question into Claude/OpenAI with a friendly ELI5 system prompt. Show markdown-style response.",
+    "labels": ["MVP", "AI", "copilot"],
+    "assignees": []
+  },
+  {
+    "title": "[MVP] Tooltip Definitions for Finance Terms",
+    "body": "Implement inline tooltips for key finance terms like SAFE, dilution, valuation cap, and shares using <span title='...'> format or reusable component.",
+    "labels": ["MVP", "UX", "tooltips"],
+    "assignees": []
+  },
+  {
+    "title": "[MVP] Learn Mode Sidebar with Explanations",
+    "body": "Create a sticky or collapsible sidebar to show friendly explanations and reinforce user learning. Reacts to key input changes.",
+    "labels": ["MVP", "UX", "learning"],
+    "assignees": []
+  },
+  {
+    "title": "[MVP] Sample Scenario Loader + Clear Button",
+    "body": "Add utility buttons to load a sample scenario (Nova founder + SAFE) and clear the current cap table state.",
+    "labels": ["MVP", "frontend", "controls"],
+    "assignees": []
+  }
+]
